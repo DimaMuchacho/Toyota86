@@ -33,6 +33,7 @@ namespace AuditConsole
                     NetInterface.NetworkInterfaceType == NetworkInterfaceType.FastEthernetT ||
                     NetInterface.NetworkInterfaceType == NetworkInterfaceType.GigabitEthernet ||
                     NetInterface.NetworkInterfaceType == NetworkInterfaceType.Wireless80211)
+                    //hfhfhfh6
                 {
                     NetworkCardForServerDesc = new CNetworkCardDesc(NetInterface);
                 }
@@ -45,7 +46,7 @@ namespace AuditConsole
             //var icon = new NotifyIcon();
             //icon.Icon = new Icon("icon.ico");
             //icon.Visible = true;
-            Console.ReadLine();
+             Console.ReadLine();
         }
         
 
