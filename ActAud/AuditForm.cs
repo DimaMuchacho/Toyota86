@@ -28,7 +28,7 @@ namespace ActAud
 		}
 
 		/// <summary>
-		/// Сервер
+		/// Сервер (stop)
 		/// </summary>
 		private readonly MonServer _server;
 
